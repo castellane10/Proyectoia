@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "buenos días",
+        "buenas tardes",
+        "buenas noches",
+        "qué tal",
+        "hey",
+        "saludos",
+        "holi",
+        "qué onda",
+        "qué hay"
+      ],
+      "respuesta": "¡Hola! ¿En qué puedo ayudarte con tus tareas?"
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "nos vemos",
+        "hasta luego",
+        "adiós",
+        "chau",
+        "me voy",
+        "bye",
+        "eso es todo",
+        "terminé"
+      ],
+      "respuesta": "¡Con gusto! Si necesitas algo más, aquí estaré. 😊"
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "qué puedes hacer",
+        "cómo funcionas",
+        "cómo me puedes ayudar",
+        "para qué sirves",
+        "qué opciones tengo",
+        "qué comandos hay",
+        "qué preguntas puedo hacer",
+        "cómo te uso",
+        "en qué me puedes ayudar",
+        "muéstrame opciones"
+      ],
+      "respuesta": "Puedo ayudarte a consultar tareas. Por ejemplo:\n• Mostrar todas las tareas\n• Ver tareas de un usuario (ej. 'tareas de Anette')\n• Filtrar por estado (pendiente, activo, completado)\n• Combinar filtros (ej. 'tareas completadas de Francisco')\nSolo dime lo que necesitas y trataré de ayudarte."
+    },
+    {
+      "tag": "listar_tareas",
+      "patterns": [
+        "muéstrame todas las tareas",
+        "quiero ver las tareas",
+        "qué solicitudes hay",
+        "dame la lista de tareas",
+        "cuáles son las solicitudes actuales",
+        "mostrar tareas",
+        "ver solicitudes",
+        "lista de tareas",
+        "ver todas las tareas"
+      ],
+      "respuesta": "Aquí están las tareas encontradas:"
+    },
+    {
+      "tag": "listar_tareas_por_estado",
+      "patterns": [
+        "muéstrame todas las tareas activas",
+        "qué tareas están pendientes",
+        "ver tareas completadas",
+        "dame todas las tareas activas",
+        "dame todas las tareas pendientes",
+        "dame todas las tareas completadas",
+        "tareas activas",
+        "cuáles son las tareas pendientes",
+        "ver tareas por estado",
+        "mostrar tareas completadas"
+      ],
+      "respuesta": "Consultando tareas por estado..."
+    },
+    {
+      "tag": "crear_tarea",
+      "patterns": [
+        "crea una tarea",
+        "crear solicitud",
+        "añade una nueva tarea",
+        "necesito registrar una tarea",
+        "registra una nueva tarea",
+        "crear nueva tarea",
+        "agrega una tarea con título",
+        "crea tarea con estado pendiente",
+        "crea un task con título y descripción",
+        "quiero añadir una tarea"
+      ],
+      "respuesta": "Voy a intentar crear la tarea. ¿Me puedes dar título, descripción y estado?"
+    }
+  ]
+}
